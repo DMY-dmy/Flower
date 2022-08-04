@@ -1,0 +1,333 @@
+/* 整体项目 */
+/* .all-file{
+    background-color: aqua;
+}
+.header-top{
+    background-color: red;
+} */
+/* 头部导航栏 */
+.header-top .header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 90px;  
+}
+.header-top .header-menu .item{
+    padding: 0 30px;
+    font-family:  monospace;
+    color: rgb(105, 104, 104);
+}
+.header-top .header-menu li  .a-one{
+    color: rgb(195, 57, 57);
+}
+.header-top .header-menu li  a:hover{
+    color: rgb(195, 57, 57);
+}
+.header-top .header-menu li .search{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 123px;
+    margin-top: -21px;
+    
+}
+/* .header-top .header-menu li .search img{
+    width: 15px;
+    height: 15px;
+} */
+
+/* 头部banner图 */
+.banner-all{
+    /* background-color: antiquewhite; */
+    height: 550px;
+}
+
+/* 中间图 */
+.center-photo{
+
+}
+.der-font{
+    /* 文字居中对齐 */
+    text-align:center;
+    margin-bottom: 50px;
+}
+h2{
+    color: rgb(168, 167, 167);
+    font-size: 34px;
+    font-weight: 400;
+    padding-top: 80px;
+    font-family:Arial;
+}
+.line{
+    width: 35px;
+    height: 5px;
+    margin: 10px auto 50px;
+    background-color: rgb(172, 4, 4);
+}
+.der-font p{
+    color: rgb(168, 167, 167);
+    font-size: 18px;
+    font-weight: 200;
+    font-family:Arial;
+}
+/* 轮播图 */
+.der-photo{
+    /* background-color:rgb(116, 150, 218); */
+    height: 530px;
+}
+/* 图片部分 */
+.der-photo .top-wall{
+    text-align: center;
+    background-color:rgb(242, 244, 248);   
+}
+.der-photo img{
+    width: 20%;
+    margin: 0 10px;
+}
+/* 介绍部分 */
+.center-text{
+    /* background-color: rgb(204, 183, 224); */
+    /* height: 100px; */
+    width: 100%;
+}
+.in-text{
+    /* background-color: antiquewhite; */
+    /* width: 910px; */
+    position: absolute;
+    left: 18.5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 15px 0 0 0;
+}
+.in-text div{
+    width: 300px;
+    height: 30px;
+}
+.in-text div h3{
+    color: rgb(232, 100, 100);
+}
+.in-text div h4{
+    color: gray;
+}
+.in-text div:nth-child(1){
+    margin-left: 0;
+}
+.in-text div:nth-child(3){
+    margin-right: 0;
+}
+.in-text div:nth-child(2){
+    margin: 0 10px;
+}
+
+/* 每日推荐 */
+.day{
+    /* background-color: antiquewhite; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.day-photo{
+    /* background-color: blue; */
+    width: 920px;
+    height: 800px;
+    position: relative;
+}
+.day-photo img{
+    margin-bottom: 10px;
+}
+.day-left{
+    width: 49.5%;
+    float: left;
+}
+.day-right{
+    width: 49.5%;
+    float: right;
+}
+.day-right .day-text{
+    width: 100%;
+    height: 148px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 10px;
+}
+.day-text .center-one{
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.day-right .day-text .center-one .oone{
+    display: flex;
+}
+.day-right .day-text .center-one .oone .one{
+    color: rgb(230, 29, 29);
+    font-size: 22px;
+    letter-spacing: 9px;
+    margin-bottom: 8px;
+}
+.day-right .day-text .center-one .oone .one-one{
+    color: rgb(106, 104, 104);
+    font-size: 22px;
+    letter-spacing: 9px;
+    margin-bottom: 8px;
+}
+.day-right .day-text .center-one .two{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(231, 20, 20);
+}
+.day-right .day-text .center-two .tree{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+/* 广告条幅 */
+.message{
+    padding-top: 30px;
+}
+/* 定制服务展示 */
+.server{
+    /* background-color: aqua; */
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+}
+.server h2{
+    margin-left: -30px;
+}
+.server .line{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(178, 176, 176);
+    margin:10px 0 0 -35px;
+}
+.server .foot{
+    display: flex;
+    justify-content: center;
+}
+.server .foot img{
+    width: 20%;
+    margin: 40px 10px 0 10px;
+}
+/* 尾部相关服务 */
+.footer{
+    height: 260px;
+}
+.footer .top{
+    height: 180px;
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: center;
+}
+.footer .top>div{
+    margin: 50px 0 30px 30px;
+}
+.footer .top .footer-one{
+    width: 150px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.footer .top .footer-one h2{
+    color: gray;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+
+}
+.footer .top .footer-one .footer-one-icon{
+    display: flex;
+}
+.footer .top .footer-one .footer-one-icon img{
+    width: 20px;
+    margin: 0 10px;
+}
+.footer .top .footer-two{
+    width: 150px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.footer .top .footer-three{
+    width: 150px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.footer .top .footer-four{
+    width: 150px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.footer .top .footer-five{
+    width: 150px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.footer .top .footer-two b{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.footer .top .footer-two .p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer .top .footer-three b{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 20px; 
+}
+.footer .top .footer-three .p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer .top .footer-four b{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.footer .top .footer-four .p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer .top .footer-five b{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.footer .top .footer-five .p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer .under{
+    height: 80px;
+    background-color: rgb(231, 231, 231); 
+    text-align: center;
+}
+.footer .under .font{
+    padding-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
